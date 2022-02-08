@@ -2,7 +2,7 @@ server {
   listen 80;
   listen [::]:80;  
   root /var/www/chowdhury;  
-  index hw1.html;  
+  index hw0.html;  
   server_name 209.151.153.112;  
   location / {
     try_files $uri $uri/ =404;
